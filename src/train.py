@@ -24,7 +24,7 @@ with open(args.experiment_config, "r") as f:
 ##
 
 run = neptune.init_run(
-    project="alexlewandowski/"+experiment["config"]["project"],
+    project="alexlewandowski/" + experiment["config"]["project"],
     name=experiment["config"]["name"],
     mode=experiment["config"]["wandb"],
 )
