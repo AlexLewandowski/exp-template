@@ -1,0 +1,7 @@
+equinox
+numpy
+jax
+matplotlib
+optax
+neptune
+black

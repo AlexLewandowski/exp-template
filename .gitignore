@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+todo.txt
+*.tar
+
+.venv
+.neptune
+__pycache__
+configs/split_*
+experiments/
+plots/
