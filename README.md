@@ -3,6 +3,7 @@
 ``` sh
 python -m venv .venv
 source .venv/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -33,13 +34,11 @@ tmux attach-session
 # Running an experiment
 
 ``` sh
-source .venv/bin/activate
 python -m src.train configs/test.json
 ```
 
 # Generating a plot
 
 ``` sh
-source .venv/bin/activate
-python -m src.train configs/test.json
+python analysis/experiment_test.py
 ```
